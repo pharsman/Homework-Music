@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    background-color: #000000;
+    width: 100%;
+    height: 94px;
+    padding: 12px 100px;
+}
+
+header h1{
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    text-indent: -999999999px;
+    float: left;
+}
+
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+header a{
+    color: #ffffff;
+}
+
+header ul{
+    margin-left: 168px;
+    margin-top: 26px
+}
+
+header li{
+    float: left;
+    margin-right: 20px;
+}
+
+main{
+    padding: 50px 100px;
+
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+}
+
+.meore{
+    margin-top: 50px
+}
+
+.social img{
+    width: 100%;
+    
+
+}
+
+.pirvelihori{
+    font-size: 24px;
+    margin-left: 154px;
+}
+
+.seqcia{
+    margin-left: 56px;
+    margin-top: 54px;
+}
+
+.statia{
+    
+    width: 300px;
+    height: 270px;
+    float: left;
+    margin-left: 100px;
+}
+
+.charcho{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    border: 1px solid #000000;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    background-position-y: 30% ;
+}
+
+.text-in-charcho h3{
+    font-size: 18px;
+    margin-left: 14px;
+    margin-top: 150px;
+}
+
+.text-in-charcho p{
+    font-size: 14px;
+    margin-left: 14px;
+    margin-top: 18px;
+}
+
+.like{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px
+}
+
+.gagrdzeleba a{
+    color: #000000;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+.late{
+    clear: both;
+    background-color: #ffffff;
+    height: 100px;
+    padding-bottom: 900px;
+}
+
+.meorehori{
+    margin-left: 154px;
+    padding-top: 30px;
+    clear:both;
+    
+}
+
+.saxeli{
+    margin-bottom: 60px;
+}
+
+
+
+.dgevandeli{
+    margin-left: 56px;
+    margin-top: 54px;
+}
+.ori{
+    margin-top: -400px;
+    padding-bottom: 400px;
+}
+
+
+
+.pirveli-platlist{
+    width: 280px;
+    height: 280px;
+    margin-left: 60px;
+    float: left;
+    
+}
+
+.pirveli-platlist p {
+    margin-top: 5px;
+}
+.pirveli-platlist p a{
+    color: #000000;
+}
+
+.sound{
+    background-image: url(../img/sound.png);
+    background-size: 33.3%;
+    width: 290px;
+    height: 100px;
+    clear: both;
+    margin: 450px auto;
+    background-repeat: repeat-x;
+}
+
+.sound2{
+    background-image: url(../img/sound.png);
+    background-size: 33.3%;
+    width: 290px;
+    height: 100px;
+    clear: both;
+    margin: 0px auto;
+    background-repeat: repeat-x;
+}
+
+.madloba{
+    margin-top: 100px;
+    padding-bottom:100px ;
+    clear:both;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+footer{
+    
+    clear:both;
+    width: 100%;
+    height: 350px;
+    background-color: #000000;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+footer h1{
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    text-indent: -999999999px;
+    margin: 0 auto;
+}
+
+footer h1 a{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+footer ul{
+    margin-top: 30px;
+}
+
+footer nav ul li a{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+footer p{
+    margin-top: 46px;
+    color: #ffffff;
+}
+
