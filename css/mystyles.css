@@ -32,6 +32,10 @@ header a{
     color: #ffffff;
 }
 
+header a:hover{
+    text-decoration: underline;
+}
+
 header ul{
     margin-left: 168px;
     margin-top: 26px
@@ -50,12 +54,33 @@ main{
 .social{
     width: 50px;
     height: 50px;
+    background-image: url(../img/Facebook.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: fixed;
     right: 0;
+    transition: background-image 0.5s;
+}
+
+.social:hover{
+    background-image: url(../img/facebook-colored.png);
+
 }
 
 .meore{
-    margin-top: 50px
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    margin-top:50px;
+    transition: background-image 0.5s;
+}
+
+.meore:hover{
+    background-image: url(../img/instagram-colored.png);
 }
 
 .social img{
@@ -112,7 +137,12 @@ main{
     background-image: url(../img/like.png);
     background-size: 100%;
     width: 50px;
-    height: 50px
+    height: 50px;
+    transition: background-image 0.5s;
+}
+
+.like:hover{
+    background-image: url(../img/like-yellow.png);
 }
 
 .gagrdzeleba a{
@@ -121,6 +151,9 @@ main{
     margin-top: 5px;
 }
 
+.gagrdzeleba a:hover{
+    text-decoration: underline;
+}
 
 
 .late{
@@ -156,9 +189,23 @@ main{
 
 .pirveli-platlist{
     width: 280px;
-    height: 280px;
+    height: 350px;
     margin-left: 60px;
+    text-align: center;
     float: left;
+    background-color: #ffffff;
+    transition: background-color 0.5s;
+}
+
+.pirveli-platlist h2{
+    margin-top:10px;
+    margin-right: 100px;
+    
+}
+
+.pirveli-platlist:hover{
+    background-color: #b0b0b0;
+    border-radius: 10px;
     
 }
 
