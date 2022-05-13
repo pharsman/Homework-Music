@@ -42,7 +42,11 @@ header a:hover{
 }
 
 header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
     margin-right: 1100px;
+    margin-left: 170px;
 }
 
 header ul li{
